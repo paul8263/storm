@@ -229,7 +229,7 @@
         <commons-codec.version>1.6</commons-codec.version>
         <commons-cli.version>1.3.1</commons-cli.version>
         <clj-time.version>0.8.0</clj-time.version>
-        <curator.version>4.0.0</curator.version>
+        <curator.version>4.3.0</curator.version>
         <curator-test.version>2.12.0</curator-test.version>
         <json-simple.version>1.1</json-simple.version>
         <ring.version>1.3.1</ring.version>
@@ -254,7 +254,7 @@
         <clojure-complete.version>0.2.3</clojure-complete.version>
         <mockito.version>1.9.5</mockito.version>
         <conjure.version>2.1.3</conjure.version>
-        <zookeeper.version>3.4.6</zookeeper.version>
+        <zookeeper.version>3.6.3</zookeeper.version>
         <clojure-data-codec.version>0.1.0</clojure-data-codec.version>
         <clojure-contrib.version>1.2.0</clojure-contrib.version>
         <hive.version>0.14.0</hive.version>
@@ -662,6 +662,11 @@
                         <artifactId>log4j</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper-jute</artifactId>
+                <version>${zookeeper.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.servlet</groupId>
